@@ -9,7 +9,6 @@ import itertools
 from sklearn.metrics import mean_absolute_error
 
 # Функция для генерации тестовых данных с настраиваемыми параметрами
-# В ARi.py
 def generate_test_data(start_date='2023-01-01', periods=1000, freq='D', trend_slope=0.1,
                        seasonality_period=7, seasonality_amplitude=5, noise_scale=1, trend_type="linear"):
     t = np.arange(periods)
